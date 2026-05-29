@@ -1,14 +1,18 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Hero() {
   return (
-    <section
-      className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
-      style={{
-        backgroundImage: 'url(/Lamborghini-Miura-showcase/images/front-view.jpg)',
-        backgroundAttachment: 'fixed',
-      }}
-    >
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <Image
+        src="/images/front-view.jpg"
+        alt="Lamborghini Miura SV"
+        fill
+        className="object-cover object-center -z-10"
+        priority
+      />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40" />
 
