@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: 'url(/images/front-view.jpg)',
+        backgroundImage: 'url(/Lamborghini-Miura-showcase/images/front-view.jpg)',
         backgroundAttachment: 'fixed',
       }}
     >
