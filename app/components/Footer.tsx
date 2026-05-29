@@ -12,7 +12,7 @@ export default function Footer() {
             <h3 className="font-serif text-2xl text-gold font-bold mb-2">
               Miura SV
             </h3>
-            <p className="text-light-gray font-light">
+            <p className="text-light-gray fontth-light">
               An automotive legend
             </p>
           </div>
