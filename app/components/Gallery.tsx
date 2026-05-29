@@ -11,10 +11,10 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
-  { id: 1, src: '/images/front-view.jpg', alt: 'Front View', title: 'Front View' },
-  { id: 2, src: '/images/scissor-doors.jpg', alt: 'Scissor Doors', title: 'Scissor Doors Open' },
-  { id: 3, src: '/images/hood-headlight.jpg', alt: 'Hood & Headlight', title: 'Hood & Headlight' },
-  { id: 4, src: '/images/rear-view.jpg', alt: 'Rear View', title: 'Rear Profile' },
+  { id: 1, src: '/Lamborghini-Miura-showcase/images/front-view.jpg', alt: 'Front View', title: 'Front View' },
+  { id: 2, src: '/Lamborghini-Miura-showcase/images/scissor-doors.jpg', alt: 'Scissor Doors', title: 'Scissor Doors Open' },
+  { id: 3, src: '/Lamborghini-Miura-showcase/images/hood-headlight.jpg', alt: 'Hood & Headlight', title: 'Hood & Headlight' },
+  { id: 4, src: '/Lamborghini-Miura-showcase/images/rear-view.jpg', alt: 'Rear View', title: 'Rear Profile' },
 ];
 
 export default function Gallery() {
