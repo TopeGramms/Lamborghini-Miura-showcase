@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-gold to-light-gray bg-clip-text text-transparent;
+  }
+
+  .smooth-transition {
+    @apply transition-all duration-500 ease-out;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-dark text-light-gray;
+}
